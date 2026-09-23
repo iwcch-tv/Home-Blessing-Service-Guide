@@ -1,1 +1,0 @@
-# Home-Blessing-Service-Guide
