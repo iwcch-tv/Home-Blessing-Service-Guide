@@ -1,0 +1,32 @@
+{
+  "name": "무릎으로 짓는 축복의 우리 가정",
+  "short_name": "축복기도문",
+  "description": "'3분묵상'으로 자녀와 함께 하는 축복기도문 — 대한예수교장로회 일원중앙교회",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdf1e2",
+  "theme_color": "#dd6c30",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
