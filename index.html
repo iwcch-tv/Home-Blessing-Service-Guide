@@ -336,6 +336,7 @@ main{padding:22px 16px 6px;}
   body[data-current-week="w7"] .day-panel[data-week="w7"]{display:block !important; break-inside:avoid; page-break-after:always;}
   body[data-current-week="w8"] .day-panel[data-week="w8"]{display:block !important; break-inside:avoid; page-break-after:always;}
   body[data-current-week="w9"] .day-panel[data-week="w9"]{display:block !important; break-inside:avoid; page-break-after:always;}
+  body[data-current-week="w10"] .day-panel[data-week="w10"]{display:block !important; break-inside:avoid; page-break-after:always;}
   .day-card{box-shadow:none; border:1px solid #ddd;}
   .verse-block,.prayer-block{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 }
@@ -449,15 +450,19 @@ main{padding:22px 16px 6px;}
 <button class="pill" data-target="day-w8-fri" role="tab" aria-selected="false"><span class="pill-day">금</span><span class="pill-date">11.13</span></button>
 <button class="pill" data-target="day-w8-sat" role="tab" aria-selected="false"><span class="pill-day">토</span><span class="pill-date">11.14</span></button>
   </nav>
-  <nav class="day-selector is-active" data-week="w9" role="tablist" aria-label="2026년 11월 11.16 ~ 11.21 요일 선택">
+  <nav class="day-selector" data-week="w9" role="tablist" aria-label="2026년 11월 11.16 ~ 11.21 요일 선택" hidden>
 <button class="pill pill-news" data-target="day-church-news" role="tab" aria-selected="false"><span class="pill-day">교회안내</span></button>
 <button class="pill pill-sun" data-target="day-w9-sun" role="tab" aria-selected="false"><span class="pill-day">주일</span><span class="pill-date">11.15</span></button>
-<button class="pill is-active" data-target="day-w9-mon" role="tab" aria-selected="true"><span class="pill-day">월</span><span class="pill-date">11.16</span></button>
+<button class="pill" data-target="day-w9-mon" role="tab" aria-selected="false"><span class="pill-day">월</span><span class="pill-date">11.16</span></button>
 <button class="pill" data-target="day-w9-tue" role="tab" aria-selected="false"><span class="pill-day">화</span><span class="pill-date">11.17</span></button>
 <button class="pill" data-target="day-w9-wed" role="tab" aria-selected="false"><span class="pill-day">수</span><span class="pill-date">11.18</span></button>
 <button class="pill" data-target="day-w9-thu" role="tab" aria-selected="false"><span class="pill-day">목</span><span class="pill-date">11.19</span></button>
 <button class="pill" data-target="day-w9-fri" role="tab" aria-selected="false"><span class="pill-day">금</span><span class="pill-date">11.20</span></button>
 <button class="pill" data-target="day-w9-sat" role="tab" aria-selected="false"><span class="pill-day">토</span><span class="pill-date">11.21</span></button>
+  </nav>
+  <nav class="day-selector is-active" data-week="w10" role="tablist" aria-label="2026년 11월 11.23 ~ 11.28 요일 선택">
+<button class="pill pill-news" data-target="day-church-news" role="tab" aria-selected="false"><span class="pill-day">교회안내</span></button>
+<button class="pill pill-sun is-active" data-target="day-w10-sun" role="tab" aria-selected="true"><span class="pill-day">주일</span><span class="pill-date">11.22</span></button>
   </nav>
 
   <main>
@@ -3563,7 +3568,7 @@ main{padding:22px 16px 6px;}
         </article>
       </section>
 
-      <section class="day-panel is-active" id="day-w9-mon" data-day="mon" data-week="w9">
+      <section class="day-panel" id="day-w9-mon" data-day="mon" data-week="w9">
         <article class="day-card">
           <h2 class="day-title"><span class="day-badge">월요일 · 11.16</span>&ldquo;두려워하지 말라&rdquo;</h2>
 
@@ -3899,6 +3904,65 @@ main{padding:22px 16px 6px;}
         </article>
       </section>
 
+      <section class="day-panel is-active" id="day-w10-sun" data-day="sun" data-week="w10">
+        <article class="day-card">
+          <h2 class="day-title"><span class="day-badge">주일 · 11.22</span>결심을 넘어 삶을 바꾸는 힘 : 절제<span class="day-ref">고린도전서 9:25</span></h2>
+
+          <div class="block">
+            <h3 class="block-label">사도신경</h3>
+            <p class="creed-text">나는 전능하신 아버지 하나님, 천지의 창조주를 믿습니다. 나는 그의 유일하신 아들, 우리 주 예수 그리스도를 믿습니다. 그는 성령으로 잉태되어 동정녀 마리아에게서 나시고, 본디오 빌라도에게 고난을 받아 십자가에 못 박혀 죽으시고, 장사된 지 사흘 만에 죽은 자 가운데서 다시 살아나셨으며, 하늘에 오르시어 전능하신 아버지 하나님 우편에 앉아 계시다가, 거기로부터 살아 있는 자와 죽은 자를 심판하러 오십니다. 나는 성령을 믿으며, 거룩한 공교회와 성도의 교제와 죄를 용서받는 것과 몸의 부활과 영생을 믿습니다. 아멘.</p>
+          </div>
+
+          <div class="block">
+            <h3 class="block-label">찬송</h3>
+            <p>191장 &lsquo;내가 매일 기쁘게&rsquo; (찬송가책에서 가사를 함께 불러요)</p>
+          </div>
+
+          <div class="block prayer-block">
+            <h3 class="block-label">대표기도</h3>
+            <p>사랑의 하나님 아버지, 오늘 가정이 함께 모여 예배하게 하심을 감사합니다. 저희는 멈추어야 할 줄 알면서도 눈앞의 욕구와 감정에 자주 끌려가는 연약한 자들입니다. 이를 악물고 버티는 힘만 의지하던 마음을 내려놓고, 저희를 먼저 사랑하신 아버지의 사랑에 마음을 내어 드리게 하여 주옵소서. 주님께서 주실 썩지 않을 면류관을 바라보며 오늘 내려놓을 것은 기꺼이 내려놓고, 맡겨 주신 일에는 끝까지 순종하게 하옵소서. 하나님께 가까이 함이 복임을 예배 가운데 날마다 알게 하시고, 넘어지는 날에도 낙심하지 않고 주님 앞에 돌아오게 하소서. 저희 안에서 착한 일을 시작하신 주님께서 그리스도 예수의 날까지 이루어 주실 것을 믿습니다. 예수님의 이름으로 기도합니다. 아멘.</p>
+          </div>
+
+          <div class="block verse-block">
+            <div class="verse-head">
+              <h3 class="block-label">오늘의 본문</h3>
+              <div class="verse-toggle" role="tablist" aria-label="번역본 선택">
+                <button type="button" class="vtab is-active" data-ver="gae">개역개정</button>
+                <button type="button" class="vtab" data-ver="sae">새번역</button>
+              </div>
+            </div>
+            <p class="verse-text" data-ver="gae">25 이기기를 다투는 자마다 모든 일에 절제하나니 그들은 썩을 승리자의 관을 얻고자 하되 우리는 썩지 아니할 것을 얻고자 하노라</p>
+            <p class="verse-text" data-ver="sae" hidden>25 경기에 나서는 사람은 모든 일에 절제를 합니다. 그런데 그들은 썩어 없어질 월계관을 얻으려고 절제를 하는 것이지만, 우리는 썩지 않을 월계관을 얻으려고 하는 것입니다.</p>
+            <p class="verse-ref">고린도전서 9:25</p>
+          </div>
+
+          <div class="block">
+            <h3 class="block-label">말씀 요약</h3>
+            <ol class="num-list">
+              <li>렘키는 『도파민 네이션』에서 쾌락이 넘치는 시대에 우리가 &lsquo;열대우림의 선인장&rsquo;처럼 멈추는 브레이크를 잃기 쉽다고 했어요. 한국도박문제예방치유원 자료로 도박 문제 치유 서비스를 이용한 청소년은 2023년 2,093명에서 2025년 5,838명으로 늘었단다. 드라마 〈퀸스 갬빗〉의 베스도 파리 결승 전날 밤 &lsquo;한 잔만&rsquo; 하려다 이튿날 경기에서 지고 말아요. 바울은 이런 우리에게 운동선수를 보라고 해요(고전 9:25). &lsquo;절제하다&rsquo;는 엥크라테우오마이(ἐγκρατεύομαι)로, 욕구와 충동에 끌려가지 않고 자신을 다스린다는 뜻이란다. 지금 먹고 싶은 마음을 참고 더 큰 것을 기다리는 마시멜로 실험의 아이들처럼, 마음속 여러 욕구를 제자리에 두는 힘이에요.</li>
+              <li>에픽테토스는 『엥케이리디온』에서 올림픽 경기에서 이기려면 식단과 훈련을 감당할 각오부터 하라고 했어요. 그런데 선수가 받는 관, 스테파노스(στέφανος)는 곧 시드는 화관이에요. 우리가 바라는 관은 &lsquo;썩지 아니할&rsquo; 것, 아프타르토스(ἄφθαρτος)란다. 번연의 『천로역정』에서 허영의 시장을 지나는 두 순례자는 무엇을 사겠느냐는 물음에 &lsquo;우리는 진리를 삽니다&rsquo;라고 답했어요. 절제는 마음이 무엇을 사랑하느냐에 크게 달려 있단다. 야곱은 라헬을 &lsquo;사랑하는 까닭에&rsquo; 칠 년을 며칠 같이 여겼어요(창 29:20). 존 파이퍼는 그리스도께서 주시는 기쁨이 눈앞의 욕망이 약속하는 즐거움보다 크다고 믿기에 그 욕망을 거절하게 된다고 설명해요. 바울에게는 사랑하는 성도들이 &lsquo;나의 기쁨이요 면류관&rsquo;이었는데(빌 4:1, 살전 2:19-20), 이 면류관도 같은 스테파노스예요.</li>
+              <li>시편 73편의 아삽은 악인의 형통이 부러워 괴로웠지만 &lsquo;하나님의 성소에 들어갈 때에야&rsquo; 그들의 종말을 깨달았고(시 73:17), &lsquo;하나님께 가까이 함이 내게 복&rsquo;이라고 고백했어요(시 73:28). 그래서 예배가 절제를 훈련하는 자리란다. 아침에 읽은 말씀을 하루 속에서 살아 보고, 넘어지면 마음이 어디서부터 흔들렸는지 주님 앞에서 돌아보세요. 바울은 광야에서 넘어진 이스라엘의 일이 &lsquo;말세를 만난 우리를 깨우치기 위하여&rsquo; 기록되었다고 했어요(고전 10:11). 변화에는 시간이 걸리지만 &lsquo;착한 일을 시작하신 이가 그리스도 예수의 날까지 이루실 줄&rsquo; 믿는단다(빌 1:6). 영국 브리스톨에서 1만 명이 넘는 고아를 돌본 조지 뮬러는 젊은 날 도둑질과 거짓말, 도박에 빠져 있었어요. 1825년 독일 할레의 한 가정 기도 모임에 갔던 그날 저녁을 삶의 전환점이었다고 돌아보았단다. 이를 악물고 버티기 전에 예배의 자리에서 아버지의 사랑을 먼저 바라보라는 것이 오늘 말씀이에요.</li>
+            </ol>
+          </div>
+
+          <div class="block">
+            <h3 class="block-label">적용하기</h3>
+            <ol class="num-list">
+              <li>요즘 &lsquo;딱 한 번만 더&rsquo; 하며 멈추지 못하는 일이 있나요? 그 순간 내 마음이 무엇을 붙들고 있었는지 가족과 나누어 보세요.</li>
+              <li>이번 한 주, 말씀을 읽고 기도할 시간을 밀어내던 일 하나를 줄여 볼까요? 가족이 서로 그 시간을 지키도록 응원해 주세요.</li>
+              <li>같은 일로 또 넘어졌다면 어디서부터 마음이 흔들렸는지 주님 앞에서 돌아보고, &lsquo;아버지께서 저를 사랑하시는 줄 믿습니다. 오늘 할 수 있는 순종부터 다시 시작하겠습니다&rsquo; 하고 기도해 볼까요?</li>
+            </ol>
+          </div>
+
+          <div class="block closing-block">
+            <h3 class="block-label">주기도문</h3>
+            <p class="creed-text">하늘에 계신 우리 아버지여 이름이 거룩히 여김을 받으시오며 나라이 임하옵시며 뜻이 하늘에서 이룬 것같이 땅에서도 이루어지이다. 오늘날 우리에게 일용할 양식을 주옵시고 우리가 우리에게 죄 지은 자를 사하여 준 것같이 우리 죄를 사하여 주옵시고 우리를 시험에 들게 하지 마옵시고 다만 악에서 구하옵소서. 대개 나라와 권세와 영광이 아버지께 영원히 있사옵나이다. 아멘.</p>
+          </div>
+
+          <a class="sunday-link" href="https://iwcch-tv.github.io/Sunday-Message-Cell-Group-Sharing/#top" target="_blank" rel="noopener noreferrer">주일말씀 다시보기 &rsaquo;</a>
+        </article>
+      </section>
+
       <section class="day-panel" id="day-church-news" data-day="church-news">
         <article class="day-card">
           <h2 class="day-title"><span class="day-badge">교회안내</span>일원중앙교회</h2>
@@ -3998,9 +4062,9 @@ if ('serviceWorker' in navigator) {
   });
 }
 (function(){
-  var weekMeta = [{id:'w1',month:'2026년 9월',range:'9.21 ~ 9.26'},{id:'w2',month:'2026년 9월~10월',range:'9.28 ~ 10.3'},{id:'w3',month:'2026년 10월',range:'10.5 ~ 10.10'},{id:'w4',month:'2026년 10월',range:'10.12 ~ 10.17'},{id:'w5',month:'2026년 10월',range:'10.19 ~ 10.24'},{id:'w6',month:'2026년 10월',range:'10.26 ~ 10.31'},{id:'w7',month:'2026년 11월',range:'11.2 ~ 11.7'},{id:'w8',month:'2026년 11월',range:'11.9 ~ 11.14'},{id:'w9',month:'2026년 11월',range:'11.16 ~ 11.21'}];
-  var weekIndex = 8;
-  var dayIndex = [{iso:'2026-09-21',week:'w1',target:'day-w1-mon'},{iso:'2026-09-22',week:'w1',target:'day-w1-tue'},{iso:'2026-09-23',week:'w1',target:'day-w1-wed'},{iso:'2026-09-24',week:'w1',target:'day-w1-thu'},{iso:'2026-09-25',week:'w1',target:'day-w1-fri'},{iso:'2026-09-26',week:'w1',target:'day-w1-sat'},{iso:'2026-09-28',week:'w2',target:'day-w2-mon'},{iso:'2026-09-29',week:'w2',target:'day-w2-tue'},{iso:'2026-09-30',week:'w2',target:'day-w2-wed'},{iso:'2026-10-01',week:'w2',target:'day-w2-thu'},{iso:'2026-10-02',week:'w2',target:'day-w2-fri'},{iso:'2026-10-03',week:'w2',target:'day-w2-sat'},{iso:'2026-10-05',week:'w3',target:'day-w3-mon'},{iso:'2026-10-06',week:'w3',target:'day-w3-tue'},{iso:'2026-10-07',week:'w3',target:'day-w3-wed'},{iso:'2026-10-08',week:'w3',target:'day-w3-thu'},{iso:'2026-10-09',week:'w3',target:'day-w3-fri'},{iso:'2026-10-10',week:'w3',target:'day-w3-sat'},{iso:'2026-10-12',week:'w4',target:'day-w4-mon'},{iso:'2026-10-13',week:'w4',target:'day-w4-tue'},{iso:'2026-10-14',week:'w4',target:'day-w4-wed'},{iso:'2026-10-15',week:'w4',target:'day-w4-thu'},{iso:'2026-10-16',week:'w4',target:'day-w4-fri'},{iso:'2026-10-17',week:'w4',target:'day-w4-sat'},{iso:'2026-10-19',week:'w5',target:'day-w5-mon'},{iso:'2026-10-20',week:'w5',target:'day-w5-tue'},{iso:'2026-10-21',week:'w5',target:'day-w5-wed'},{iso:'2026-10-22',week:'w5',target:'day-w5-thu'},{iso:'2026-10-23',week:'w5',target:'day-w5-fri'},{iso:'2026-10-24',week:'w5',target:'day-w5-sat'},{iso:'2026-09-27',week:'w2',target:'day-w2-sun'},{iso:'2026-10-04',week:'w3',target:'day-w3-sun'},{iso:'2026-10-11',week:'w4',target:'day-w4-sun'},{iso:'2026-10-18',week:'w5',target:'day-w5-sun'},{iso:'2026-10-25',week:'w6',target:'day-w6-sun'},{iso:'2026-10-26',week:'w6',target:'day-w6-mon'},{iso:'2026-10-27',week:'w6',target:'day-w6-tue'},{iso:'2026-10-28',week:'w6',target:'day-w6-wed'},{iso:'2026-10-29',week:'w6',target:'day-w6-thu'},{iso:'2026-10-30',week:'w6',target:'day-w6-fri'},{iso:'2026-10-31',week:'w6',target:'day-w6-sat'},{iso:'2026-11-02',week:'w7',target:'day-w7-mon'},{iso:'2026-11-03',week:'w7',target:'day-w7-tue'},{iso:'2026-11-04',week:'w7',target:'day-w7-wed'},{iso:'2026-11-05',week:'w7',target:'day-w7-thu'},{iso:'2026-11-06',week:'w7',target:'day-w7-fri'},{iso:'2026-11-07',week:'w7',target:'day-w7-sat'},{iso:'2026-11-08',week:'w8',target:'day-w8-sun'},{iso:'2026-11-09',week:'w8',target:'day-w8-mon'},{iso:'2026-11-10',week:'w8',target:'day-w8-tue'},{iso:'2026-11-11',week:'w8',target:'day-w8-wed'},{iso:'2026-11-12',week:'w8',target:'day-w8-thu'},{iso:'2026-11-13',week:'w8',target:'day-w8-fri'},{iso:'2026-11-14',week:'w8',target:'day-w8-sat'},{iso:'2026-11-15',week:'w9',target:'day-w9-sun'},{iso:'2026-11-16',week:'w9',target:'day-w9-mon'},{iso:'2026-11-17',week:'w9',target:'day-w9-tue'},{iso:'2026-11-18',week:'w9',target:'day-w9-wed'},{iso:'2026-11-19',week:'w9',target:'day-w9-thu'},{iso:'2026-11-20',week:'w9',target:'day-w9-fri'},{iso:'2026-11-21',week:'w9',target:'day-w9-sat'}];
+  var weekMeta = [{id:'w1',month:'2026년 9월',range:'9.21 ~ 9.26'},{id:'w2',month:'2026년 9월~10월',range:'9.28 ~ 10.3'},{id:'w3',month:'2026년 10월',range:'10.5 ~ 10.10'},{id:'w4',month:'2026년 10월',range:'10.12 ~ 10.17'},{id:'w5',month:'2026년 10월',range:'10.19 ~ 10.24'},{id:'w6',month:'2026년 10월',range:'10.26 ~ 10.31'},{id:'w7',month:'2026년 11월',range:'11.2 ~ 11.7'},{id:'w8',month:'2026년 11월',range:'11.9 ~ 11.14'},{id:'w9',month:'2026년 11월',range:'11.16 ~ 11.21'},{id:'w10',month:'2026년 11월',range:'11.23 ~ 11.28'}];
+  var weekIndex = 9;
+  var dayIndex = [{iso:'2026-09-21',week:'w1',target:'day-w1-mon'},{iso:'2026-09-22',week:'w1',target:'day-w1-tue'},{iso:'2026-09-23',week:'w1',target:'day-w1-wed'},{iso:'2026-09-24',week:'w1',target:'day-w1-thu'},{iso:'2026-09-25',week:'w1',target:'day-w1-fri'},{iso:'2026-09-26',week:'w1',target:'day-w1-sat'},{iso:'2026-09-28',week:'w2',target:'day-w2-mon'},{iso:'2026-09-29',week:'w2',target:'day-w2-tue'},{iso:'2026-09-30',week:'w2',target:'day-w2-wed'},{iso:'2026-10-01',week:'w2',target:'day-w2-thu'},{iso:'2026-10-02',week:'w2',target:'day-w2-fri'},{iso:'2026-10-03',week:'w2',target:'day-w2-sat'},{iso:'2026-10-05',week:'w3',target:'day-w3-mon'},{iso:'2026-10-06',week:'w3',target:'day-w3-tue'},{iso:'2026-10-07',week:'w3',target:'day-w3-wed'},{iso:'2026-10-08',week:'w3',target:'day-w3-thu'},{iso:'2026-10-09',week:'w3',target:'day-w3-fri'},{iso:'2026-10-10',week:'w3',target:'day-w3-sat'},{iso:'2026-10-12',week:'w4',target:'day-w4-mon'},{iso:'2026-10-13',week:'w4',target:'day-w4-tue'},{iso:'2026-10-14',week:'w4',target:'day-w4-wed'},{iso:'2026-10-15',week:'w4',target:'day-w4-thu'},{iso:'2026-10-16',week:'w4',target:'day-w4-fri'},{iso:'2026-10-17',week:'w4',target:'day-w4-sat'},{iso:'2026-10-19',week:'w5',target:'day-w5-mon'},{iso:'2026-10-20',week:'w5',target:'day-w5-tue'},{iso:'2026-10-21',week:'w5',target:'day-w5-wed'},{iso:'2026-10-22',week:'w5',target:'day-w5-thu'},{iso:'2026-10-23',week:'w5',target:'day-w5-fri'},{iso:'2026-10-24',week:'w5',target:'day-w5-sat'},{iso:'2026-09-27',week:'w2',target:'day-w2-sun'},{iso:'2026-10-04',week:'w3',target:'day-w3-sun'},{iso:'2026-10-11',week:'w4',target:'day-w4-sun'},{iso:'2026-10-18',week:'w5',target:'day-w5-sun'},{iso:'2026-10-25',week:'w6',target:'day-w6-sun'},{iso:'2026-10-26',week:'w6',target:'day-w6-mon'},{iso:'2026-10-27',week:'w6',target:'day-w6-tue'},{iso:'2026-10-28',week:'w6',target:'day-w6-wed'},{iso:'2026-10-29',week:'w6',target:'day-w6-thu'},{iso:'2026-10-30',week:'w6',target:'day-w6-fri'},{iso:'2026-10-31',week:'w6',target:'day-w6-sat'},{iso:'2026-11-02',week:'w7',target:'day-w7-mon'},{iso:'2026-11-03',week:'w7',target:'day-w7-tue'},{iso:'2026-11-04',week:'w7',target:'day-w7-wed'},{iso:'2026-11-05',week:'w7',target:'day-w7-thu'},{iso:'2026-11-06',week:'w7',target:'day-w7-fri'},{iso:'2026-11-07',week:'w7',target:'day-w7-sat'},{iso:'2026-11-08',week:'w8',target:'day-w8-sun'},{iso:'2026-11-09',week:'w8',target:'day-w8-mon'},{iso:'2026-11-10',week:'w8',target:'day-w8-tue'},{iso:'2026-11-11',week:'w8',target:'day-w8-wed'},{iso:'2026-11-12',week:'w8',target:'day-w8-thu'},{iso:'2026-11-13',week:'w8',target:'day-w8-fri'},{iso:'2026-11-14',week:'w8',target:'day-w8-sat'},{iso:'2026-11-15',week:'w9',target:'day-w9-sun'},{iso:'2026-11-16',week:'w9',target:'day-w9-mon'},{iso:'2026-11-17',week:'w9',target:'day-w9-tue'},{iso:'2026-11-18',week:'w9',target:'day-w9-wed'},{iso:'2026-11-19',week:'w9',target:'day-w9-thu'},{iso:'2026-11-20',week:'w9',target:'day-w9-fri'},{iso:'2026-11-21',week:'w9',target:'day-w9-sat'},{iso:'2026-11-22',week:'w10',target:'day-w10-sun'}];
   var monthEl = document.getElementById('weekMonth');
   var rangeEl = document.getElementById('weekRange');
   var prevBtn = document.getElementById('weekPrev');
